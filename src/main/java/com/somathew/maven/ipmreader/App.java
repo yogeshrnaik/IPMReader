@@ -131,7 +131,8 @@ public class App {
 
 	public static void main(String[] args) throws IOException, ISOException {
 		//RandomAccessFile file = new RandomAccessFile("C:\\Users\\somathew\\Documents\\Sprint work\\Sprint 124\\FirstPresentment-AllElements-1Txn-1LogicalFile.ipm", "r");
-		RandomAccessFile file = new RandomAccessFile("test.ipm", "r");
+//		RandomAccessFile file = new RandomAccessFile("test.ipm", "r");
+		RandomAccessFile file = new RandomAccessFile("YTF.AR.T120.C.E0000016.D211213.T030132.A004.ipm", "r");
 		GenericPackager packager = new GenericPackager("ISO8583_format.xml");
 		ISOMsg msg;
 		
